@@ -1,0 +1,8 @@
+[2022-05-24 20:30:20.049] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-24 20:30:20.245] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-05-24 20:30:20.801] [main] [info] ExtensionHostStarterWorker created
+[2022-05-24 20:30:23.192] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-24 20:30:23.606] [main] [info] Starting extension host with pid 2817 (fork() took 9 ms).
+[2022-05-24 20:30:23.606] [main] [info] ExtensionHostStarterWorker.start() took 11 ms.
+[2022-05-24 20:30:27.078] [main] [info] Waiting for extension host with pid 2817 to exit.
+[2022-05-24 20:30:27.083] [main] [info] Extension host with pid 2817 exited with code: 0, signal: null.

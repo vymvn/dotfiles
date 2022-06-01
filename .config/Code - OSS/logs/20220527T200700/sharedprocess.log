@@ -1,0 +1,15 @@
+[2022-05-27 20:07:02.945] [sharedprocess] [info] Starting worker process with pid 44127 (type: fileWatcher, window: 1).
+[2022-05-27 20:35:34.965] [sharedprocess] [info] Getting Manifest... dracula-theme.theme-dracula
+[2022-05-27 20:35:35.107] [sharedprocess] [info] Installing extension: dracula-theme.theme-dracula
+[2022-05-27 20:35:36.454] [sharedprocess] [info] Downloaded extension: dracula-theme.theme-dracula /home/vymvn/.config/Code - OSS/CachedExtensionVSIXs/dracula-theme.theme-dracula-2.24.2
+[2022-05-27 20:35:36.491] [sharedprocess] [info] Extracted extension to /home/vymvn/.vscode-oss/extensions/.1f0fe9c1-946c-4332-b885-67df477e8c3d: dracula-theme.theme-dracula
+[2022-05-27 20:35:36.496] [sharedprocess] [info] Renamed to /home/vymvn/.vscode-oss/extensions/dracula-theme.theme-dracula-2.24.2
+[2022-05-27 20:35:36.497] [sharedprocess] [info] Extracting completed. dracula-theme.theme-dracula
+[2022-05-27 20:35:36.498] [sharedprocess] [info] Extension installed successfully: dracula-theme.theme-dracula
+[2022-05-27 20:43:32.621] [sharedprocess] [info] Getting Manifest... silofy.hackthebox
+[2022-05-27 20:43:32.894] [sharedprocess] [info] Installing extension: silofy.hackthebox
+[2022-05-27 20:43:38.269] [sharedprocess] [info] Downloaded extension: silofy.hackthebox /home/vymvn/.config/Code - OSS/CachedExtensionVSIXs/silofy.hackthebox-0.2.9
+[2022-05-27 20:43:38.504] [sharedprocess] [info] Extracted extension to /home/vymvn/.vscode-oss/extensions/.806cd103-8685-42b9-9cc1-93579c7275d4: silofy.hackthebox
+[2022-05-27 20:43:38.509] [sharedprocess] [info] Renamed to /home/vymvn/.vscode-oss/extensions/silofy.hackthebox-0.2.9
+[2022-05-27 20:43:38.511] [sharedprocess] [info] Extracting completed. silofy.hackthebox
+[2022-05-27 20:43:38.512] [sharedprocess] [info] Extension installed successfully: silofy.hackthebox

@@ -1,0 +1,9 @@
+[2022-05-27 14:11:21.553] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-27 14:11:21.620] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-05-27 14:11:21.964] [main] [info] ExtensionHostStarterWorker created
+[2022-05-27 14:11:24.576] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-27 14:11:24.870] [main] [info] Starting extension host with pid 25150 (fork() took 14 ms).
+[2022-05-27 14:11:24.871] [main] [info] ExtensionHostStarterWorker.start() took 16 ms.
+[2022-05-27 14:20:19.710] [main] [info] Waiting for extension host with pid 25150 to exit.
+[2022-05-27 14:20:20.020] [main] [warning] [storage main] detected slow close() operation: Time: 313ms, DB size: 24576b, Large Keys: memento/workbench.parts.editor:2458, __$__targetStorageMarker:1015, workbench.view.debug.state:528, memento/workbench.editors.files.textFileEditor:471, terminal.integrated.environmentVariableCollections:457
+[2022-05-27 14:20:20.021] [main] [info] Extension host with pid 25150 exited with code: 0, signal: null.

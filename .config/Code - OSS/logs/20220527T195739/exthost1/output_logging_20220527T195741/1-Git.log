@@ -1,0 +1,4 @@
+[2022-05-27T15:57:41.943Z] Validating found git in: git
+[2022-05-27T15:57:41.961Z] Using git 2.36.1 from git
+[2022-05-27T15:57:41.975Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-27T15:57:41.975Z] fatal: not a git repository (or any of the parent directories): .git

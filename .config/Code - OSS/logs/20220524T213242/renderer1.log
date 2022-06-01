@@ -1,0 +1,6 @@
+[2022-05-24 21:33:09.997] [renderer1] [error] Unable to read file '/home/vymvn/pod2htmd.tmp' (Error: Unable to resolve nonexistent file '/home/vymvn/pod2htmd.tmp'): Error: Unable to read file '/home/vymvn/pod2htmd.tmp' (Error: Unable to resolve nonexistent file '/home/vymvn/pod2htmd.tmp')
+    at p.doReadFileStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:594:24262)
+    at async f.doRead (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2737:42343)
+    at async f.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2737:42018)
+    at async ir.resolveFromFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2726:66754)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2737:36475
