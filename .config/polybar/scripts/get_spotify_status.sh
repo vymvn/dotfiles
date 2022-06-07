@@ -12,7 +12,7 @@ PLAYER="spotify"
 # See more attributes here: https://github.com/altdesktop/playerctl/#printing-properties-and-metadata
 
 PLAYERCTL_STATUS=$(playerctl --player=$PLAYER status 2>/dev/null)
-FORMAT="ﱘ ["$PLAYERCTL_STATUS"] {{ title }} - {{ artist }}"
+FORMAT="["$PLAYERCTL_STATUS"] {{ artist }} - {{ title }}"
 EXIT_CODE=$?
 
 if [ $EXIT_CODE -eq 0 ]; then
