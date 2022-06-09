@@ -52,8 +52,9 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
@@ -228,8 +229,7 @@ exec_always nitrogen --restore
 # compositor
 exec_always picom
 
-# Virtualbox shit
-exec_always VBoxClient --vmsvga
-exec_always VBoxClient --clipboard
-exec_always VBoxClient --draganddrop
-exec_always VBoxClient --seamless
+# Touchpad shit
+exec xinput set-prop 12 328 1
+exec xinput set-prop 12 307 1
+
