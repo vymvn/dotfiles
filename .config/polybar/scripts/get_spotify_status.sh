@@ -18,22 +18,24 @@ EXIT_CODE=$?
 if [ $EXIT_CODE -eq 0 ]; then
     STATUS=$PLAYERCTL_STATUS
 else
-    STATUS="No player is running"
+    # STATUS="No player is running"
+	:
 fi
 
-if [ "$1" == "--status" ]; then
+if [ "$1" = "--status" ]; then
     echo "$STATUS"
 else
     if [ "$STATUS" = "Stopped" ]; then
-        echo "No music is playing"
+        # echo "No music is playing"
+		:
     elif [ "$STATUS" = "Paused"  ]; then
 	polybar-msg action "#spotify-play-pause.hook.1" 1>/dev/null 2>&1
         playerctl --player=$PLAYER metadata --format "$FORMAT"
-    elif [ "$STATUS" = "No player is running"  ]; then
-        echo "$STATUS"
-    else
-	polybar-msg action "#spotify-play-pause.hook.0" 1>/dev/null 2>&1
+    elif [ "$STATUS" = "Playing" ]; then
+	    polybar-msg action "#spotify-play-pause.hook.0" 1>/dev/null 2>&1
         playerctl --player=$PLAYER metadata --format "$FORMAT"
+    else
+		:
     fi
 fi
 
