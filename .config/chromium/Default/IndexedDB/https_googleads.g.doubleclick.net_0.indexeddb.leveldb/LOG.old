@@ -1,0 +1,7 @@
+2022/07/12-22:36:19.189 ad76 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/12-22:36:19.189 ad76 Recovering log #3
+2022/07/12-22:36:19.189 ad76 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000003.log 
+2022/07/12-22:36:47.570 ad76 Level-0 table #5: started
+2022/07/12-22:36:47.604 ad76 Level-0 table #5: 385 bytes OK
+2022/07/12-22:36:47.656 ad76 Delete type=0 #3
+2022/07/12-22:36:47.669 ad76 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

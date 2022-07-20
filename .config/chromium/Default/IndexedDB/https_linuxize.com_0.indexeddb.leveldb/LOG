@@ -1,0 +1,15 @@
+2022/07/10-19:46:29.014 93104 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/10-19:46:29.015 93104 Recovering log #4
+2022/07/10-19:46:29.124 93104 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/000004.log 
+2022/07/10-19:50:47.242 8753a Level-0 table #8: started
+2022/07/10-19:50:47.275 8753a Level-0 table #8: 41686 bytes OK
+2022/07/10-19:50:47.326 8753a Delete type=0 #4
+2022/07/10-19:50:47.326 8753a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/07/10-19:50:47.327 8753a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\x05' @ 1210 : 1
+2022/07/10-19:50:47.327 8753a Compacting 1@1 + 1@2 files
+2022/07/10-19:50:48.932 8753a Generated table #9@1: 143 keys, 17038 bytes
+2022/07/10-19:50:48.932 8753a Compacted 1@1 + 1@2 files => 17038 bytes
+2022/07/10-19:50:49.019 8753a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/10-19:50:49.019 8753a Delete type=2 #8
+2022/07/10-19:50:49.019 8753a Delete type=2 #5
+2022/07/10-19:50:49.020 8753a Manual compaction at level-1 from '\x00\x03\x00\x00\x05' @ 1210 : 1 .. (end); will stop at (end)

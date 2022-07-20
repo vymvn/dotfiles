@@ -1,0 +1,6 @@
+2022/07/02-00:56:08.593 10f09b Creating DB /home/vymvn/.config/chromium/Default/IndexedDB/https_null-byte.wonderhowto.com_0.indexeddb.leveldb since it was missing.
+2022/07/02-00:56:10.302 10f09b Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_null-byte.wonderhowto.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/02-00:56:30.303 10f09b Level-0 table #5: started
+2022/07/02-00:56:30.337 10f09b Level-0 table #5: 381 bytes OK
+2022/07/02-00:56:30.565 10f09b Delete type=0 #3
+2022/07/02-00:56:30.565 10f09b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

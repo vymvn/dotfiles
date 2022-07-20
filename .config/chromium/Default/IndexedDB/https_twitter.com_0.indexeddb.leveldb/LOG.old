@@ -1,0 +1,7 @@
+2022/07/02-21:16:04.054 27d02c Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/02-21:16:04.054 27d02c Recovering log #3
+2022/07/02-21:16:04.069 27d02c Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000003.log 
+2022/07/02-21:59:19.100 2a29cd Level-0 table #5: started
+2022/07/02-21:59:19.134 2a29cd Level-0 table #5: 1316 bytes OK
+2022/07/02-21:59:19.186 2a29cd Delete type=0 #3
+2022/07/02-21:59:19.186 2a29cd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

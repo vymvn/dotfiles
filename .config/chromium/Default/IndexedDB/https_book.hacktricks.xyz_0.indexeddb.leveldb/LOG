@@ -1,0 +1,15 @@
+2022/07/18-02:17:33.795 df5f0 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/18-02:17:33.937 df5f0 Recovering log #15
+2022/07/18-02:17:34.159 df5f0 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb/000015.log 
+2022/07/18-02:32:32.154 f388e Level-0 table #20: started
+2022/07/18-02:32:32.311 f388e Level-0 table #20: 2181 bytes OK
+2022/07/18-02:32:32.409 f388e Delete type=0 #15
+2022/07/18-02:32:32.527 f388e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/07/18-02:32:32.528 f388e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 753 : 1
+2022/07/18-02:32:32.528 f388e Compacting 1@1 + 1@2 files
+2022/07/18-02:32:32.635 f388e Generated table #21@1: 36 keys, 817 bytes
+2022/07/18-02:32:32.635 f388e Compacted 1@1 + 1@2 files => 817 bytes
+2022/07/18-02:32:32.731 f388e compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/18-02:32:32.732 f388e Delete type=2 #20
+2022/07/18-02:32:32.732 f388e Delete type=2 #17
+2022/07/18-02:32:32.732 f388e Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 753 : 1 .. (end); will stop at (end)

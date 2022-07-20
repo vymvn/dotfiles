@@ -1,0 +1,15 @@
+2022/07/20-03:00:01.476 b2b23 Reusing MANIFEST /home/vymvn/.config/chromium/Default/Local Extension Settings/gppongmhjkpfnbhagpmjfkannfbllamg/MANIFEST-000001
+2022/07/20-03:00:01.476 b2b23 Recovering log #234
+2022/07/20-03:00:01.480 b2b23 Reusing old log /home/vymvn/.config/chromium/Default/Local Extension Settings/gppongmhjkpfnbhagpmjfkannfbllamg/000234.log 
+2022/07/20-03:04:01.032 b6e9d Level-0 table #238: started
+2022/07/20-03:04:01.447 b6e9d Level-0 table #238: 739960 bytes OK
+2022/07/20-03:04:02.042 b6e9d Delete type=0 #234
+2022/07/20-03:04:02.044 b6e9d Compacting 4@0 + 1@1 files
+2022/07/20-03:04:02.662 b6e9d Generated table #239@0: 2 keys, 12670 bytes
+2022/07/20-03:04:02.662 b6e9d Compacted 4@0 + 1@1 files => 12670 bytes
+2022/07/20-03:04:03.698 b6e9d compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/07/20-03:04:03.699 b6e9d Delete type=2 #232
+2022/07/20-03:04:03.699 b6e9d Delete type=2 #227
+2022/07/20-03:04:03.699 b6e9d Delete type=2 #229
+2022/07/20-03:04:03.699 b6e9d Delete type=2 #235
+2022/07/20-03:04:03.699 b6e9d Delete type=2 #238

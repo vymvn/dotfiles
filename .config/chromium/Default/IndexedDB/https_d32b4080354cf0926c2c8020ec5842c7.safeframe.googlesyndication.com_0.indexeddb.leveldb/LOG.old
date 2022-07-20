@@ -1,0 +1,6 @@
+2022/06/15-23:52:19.026 1fa0f7 Creating DB /home/vymvn/.config/chromium/Default/IndexedDB/https_d32b4080354cf0926c2c8020ec5842c7.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
+2022/06/15-23:52:19.165 1fa0f7 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_d32b4080354cf0926c2c8020ec5842c7.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/15-23:52:52.138 1fa0f9 Level-0 table #5: started
+2022/06/15-23:52:52.172 1fa0f9 Level-0 table #5: 958 bytes OK
+2022/06/15-23:52:52.223 1fa0f9 Delete type=0 #3
+2022/06/15-23:52:52.223 1fa0f9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

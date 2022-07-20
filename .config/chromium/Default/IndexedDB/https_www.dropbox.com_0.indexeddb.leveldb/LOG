@@ -1,0 +1,15 @@
+2022/07/20-02:24:55.736 83a32 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/20-02:24:55.736 83a32 Recovering log #4
+2022/07/20-02:24:57.660 83a32 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/000004.log 
+2022/07/20-02:26:57.813 80ab6 Level-0 table #8: started
+2022/07/20-02:26:57.857 80ab6 Level-0 table #8: 588946 bytes OK
+2022/07/20-02:26:57.909 80ab6 Delete type=0 #4
+2022/07/20-02:26:57.909 80ab6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/07/20-02:26:57.909 80ab6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x04\x1f\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x00\x04\x03\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x04\x01\x01\x0e\x00c\x00l\x00i\x00e\x00n\x00t\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n\x04\x01\x01\x02\x002\x001' @ 11431 : 1
+2022/07/20-02:26:57.909 80ab6 Compacting 1@1 + 1@2 files
+2022/07/20-02:26:57.943 80ab6 Generated table #9@1: 107 keys, 6153 bytes
+2022/07/20-02:26:57.943 80ab6 Compacted 1@1 + 1@2 files => 6153 bytes
+2022/07/20-02:26:57.995 80ab6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/20-02:26:57.995 80ab6 Delete type=2 #8
+2022/07/20-02:26:57.995 80ab6 Delete type=2 #5
+2022/07/20-02:26:57.995 80ab6 Manual compaction at level-1 from '\x00\x02\x04\x1f\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x00\x04\x03\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x04\x01\x01\x0e\x00c\x00l\x00i\x00e\x00n\x00t\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n\x04\x01\x01\x02\x002\x001' @ 11431 : 1 .. (end); will stop at (end)

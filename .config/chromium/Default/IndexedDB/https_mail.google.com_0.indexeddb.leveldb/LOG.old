@@ -1,0 +1,6 @@
+2022/07/15-01:17:59.044 c0957 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/15-01:17:59.045 c0957 Recovering log #12
+2022/07/15-01:17:59.045 c0957 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000012.log 
+2022/07/15-01:20:15.064 c7e54 Level-0 table #17: started
+2022/07/15-01:20:15.243 c7e54 Level-0 table #17: 2039387 bytes OK
+2022/07/15-01:20:15.420 c7e54 Delete type=0 #12

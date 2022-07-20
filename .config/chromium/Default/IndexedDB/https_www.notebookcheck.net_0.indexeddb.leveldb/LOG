@@ -1,0 +1,6 @@
+2022/06/10-16:38:12.641 5379c Creating DB /home/vymvn/.config/chromium/Default/IndexedDB/https_www.notebookcheck.net_0.indexeddb.leveldb since it was missing.
+2022/06/10-16:38:13.362 5379c Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_www.notebookcheck.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/10-16:38:20.160 5379c Level-0 table #5: started
+2022/06/10-16:38:20.649 5379c Level-0 table #5: 373 bytes OK
+2022/06/10-16:38:21.277 5379c Delete type=0 #3
+2022/06/10-16:38:21.277 5379c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

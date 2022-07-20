@@ -1,0 +1,6 @@
+2022/07/20-21:00:02.946 3 Reusing MANIFEST /home/vymvn/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2022/07/20-21:00:02.949 3 Recovering log #532
+2022/07/20-21:00:03.141 3 Reusing old log /home/vymvn/.config/chromium/Default/Local Storage/leveldb/000532.log 
+2022/07/20-21:17:11.336 7 Level-0 table #536: started
+2022/07/20-21:17:11.744 7 Level-0 table #536: 51868 bytes OK
+2022/07/20-21:17:12.205 7 Delete type=0 #532

@@ -1,0 +1,54 @@
+{
+   "checksum": "89464305c35be33eb51cbdc9665ecf28",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13299698723423210",
+            "guid": "5003fa66-06fb-44c9-a805-ff32aa5bb21d",
+            "id": "5",
+            "name": "HTB",
+            "type": "url",
+            "url": "https://app.hackthebox.com/home"
+         }, {
+            "date_added": "13301166812212032",
+            "guid": "8197e44a-1d4a-4a61-8e21-c4676ed6a863",
+            "id": "7",
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13302743104194600",
+            "guid": "eac1df8a-c86d-4908-a9d2-03f25180c8b4",
+            "id": "9",
+            "name": "Dropbox",
+            "type": "url",
+            "url": "https://www.dropbox.com/h"
+         } ],
+         "date_added": "13299697846065544",
+         "date_modified": "13302743104194600",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13299697846065550",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13299697846065554",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,6 @@
+2022/06/14-20:44:38.572 e9a6 Creating DB /home/vymvn/.config/chromium/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb since it was missing.
+2022/06/14-20:44:38.712 e9a6 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/14-20:44:47.365 e5b8 Level-0 table #5: started
+2022/06/14-20:44:47.411 e5b8 Level-0 table #5: 1299 bytes OK
+2022/06/14-20:44:47.475 e5b8 Delete type=0 #3
+2022/06/14-20:44:47.476 e5b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

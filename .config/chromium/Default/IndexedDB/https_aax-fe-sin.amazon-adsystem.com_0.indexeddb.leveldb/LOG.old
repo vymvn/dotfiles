@@ -1,0 +1,7 @@
+2022/06/15-16:10:24.680 380c2 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_aax-fe-sin.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/15-16:10:24.680 380c2 Recovering log #3
+2022/06/15-16:10:24.680 380c2 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_aax-fe-sin.amazon-adsystem.com_0.indexeddb.leveldb/000003.log 
+2022/06/15-16:10:30.674 38559 Level-0 table #5: started
+2022/06/15-16:10:30.745 38559 Level-0 table #5: 391 bytes OK
+2022/06/15-16:10:30.887 38559 Delete type=0 #3
+2022/06/15-16:10:30.888 38559 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

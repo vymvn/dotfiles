@@ -1,0 +1,6 @@
+2022/06/28-21:53:18.249 18b547 Creating DB /home/vymvn/.config/chromium/Default/IndexedDB/https_www.vultr.com_0.indexeddb.leveldb since it was missing.
+2022/06/28-21:53:19.156 18b547 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_www.vultr.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/28-21:54:47.578 18e294 Level-0 table #5: started
+2022/06/28-21:54:47.612 18e294 Level-0 table #5: 820 bytes OK
+2022/06/28-21:54:47.664 18e294 Delete type=0 #3
+2022/06/28-21:54:47.664 18e294 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

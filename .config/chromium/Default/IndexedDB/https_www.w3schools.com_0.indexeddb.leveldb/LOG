@@ -1,0 +1,7 @@
+2022/07/18-00:28:56.629 423ba Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_www.w3schools.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/18-00:28:56.629 423ba Recovering log #3
+2022/07/18-00:28:56.945 423ba Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_www.w3schools.com_0.indexeddb.leveldb/000003.log 
+2022/07/18-00:29:02.566 423ba Level-0 table #5: started
+2022/07/18-00:29:02.648 423ba Level-0 table #5: 886 bytes OK
+2022/07/18-00:29:03.235 423ba Delete type=0 #3
+2022/07/18-00:29:03.235 423ba Manual compaction at level-0 from (begin) .. (end); will stop at (end)

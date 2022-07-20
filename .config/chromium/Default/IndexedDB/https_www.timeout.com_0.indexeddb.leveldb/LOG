@@ -1,0 +1,6 @@
+2022/06/23-03:06:32.613 209293 Creating DB /home/vymvn/.config/chromium/Default/IndexedDB/https_www.timeout.com_0.indexeddb.leveldb since it was missing.
+2022/06/23-03:06:34.171 209293 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_www.timeout.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/23-03:06:36.384 20d8ea Level-0 table #5: started
+2022/06/23-03:06:36.419 20d8ea Level-0 table #5: 440 bytes OK
+2022/06/23-03:06:36.470 20d8ea Delete type=0 #3
+2022/06/23-03:06:36.470 20d8ea Manual compaction at level-0 from (begin) .. (end); will stop at (end)

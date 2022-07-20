@@ -1,0 +1,6 @@
+2022/07/06-20:14:38.872 8248 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/06-20:14:38.872 8248 Recovering log #3
+2022/07/06-20:14:39.760 8248 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/000003.log 
+2022/07/06-20:14:55.252 92ee Level-0 table #5: started
+2022/07/06-20:14:55.376 92ee Level-0 table #5: 1008838 bytes OK
+2022/07/06-20:14:55.564 92ee Delete type=0 #3

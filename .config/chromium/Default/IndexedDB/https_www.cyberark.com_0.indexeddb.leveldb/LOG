@@ -1,0 +1,6 @@
+2022/07/05-14:39:08.375 e1766 Creating DB /home/vymvn/.config/chromium/Default/IndexedDB/https_www.cyberark.com_0.indexeddb.leveldb since it was missing.
+2022/07/05-14:39:08.515 e1766 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_www.cyberark.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/05-14:39:35.693 ecfd6 Level-0 table #5: started
+2022/07/05-14:39:35.727 ecfd6 Level-0 table #5: 824 bytes OK
+2022/07/05-14:39:35.778 ecfd6 Delete type=0 #3
+2022/07/05-14:39:35.778 ecfd6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

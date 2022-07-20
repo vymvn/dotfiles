@@ -1,0 +1,9 @@
+2022/07/18-04:26:00.494 193a37 Reusing MANIFEST /home/vymvn/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/18-04:26:00.494 193a37 Recovering log #16
+2022/07/18-04:26:00.841 193a37 Reusing old log /home/vymvn/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000016.log 
+2022/07/18-04:26:10.624 193a37 Compacting 1@1 + 1@2 files
+2022/07/18-04:26:12.834 193a37 Generated table #19@1: 269 keys, 324098 bytes
+2022/07/18-04:26:12.834 193a37 Compacted 1@1 + 1@2 files => 324098 bytes
+2022/07/18-04:26:13.118 193a37 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/18-04:26:13.118 193a37 Delete type=2 #17
+2022/07/18-04:26:13.118 193a37 Delete type=2 #14
