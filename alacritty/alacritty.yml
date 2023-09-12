@@ -1,0 +1,203 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 1
+
+scrolling:
+  history: 5000
+  multiplier: 3
+
+
+font:
+  normal:
+    family: "Iosevka"
+    style: Extended
+  bold:
+    family: "Iosevka"
+    style:  Bold
+  italic:
+    family: "Iosevka"
+    style:  Italic
+  bold_italic:
+    family: "Iosevka"
+    style: "Bold Italic"
+  size: 14
+draw_bold_text_with_bright_colors: true
+
+
+colors:
+    primary:
+        background: "#000000" # base
+        foreground: "#CDD6F4" # text
+        # Bright and dim foreground colors
+        dim_foreground: "#CDD6F4" # text
+        bright_foreground: "#CDD6F4" # text
+
+    # Cursor colors
+    cursor:
+        text: "#1E1E2E" # base
+        cursor: "#F5E0DC" # rosewater
+    vi_mode_cursor:
+        text: "#1E1E2E" # base
+        cursor: "#B4BEFE" # lavender
+
+    # Search colors
+    search:
+        matches:
+            foreground: "#1E1E2E" # base
+            background: "#A6ADC8" # subtext0
+        focused_match:
+            foreground: "#1E1E2E" # base
+            background: "#A6E3A1" # green
+        footer_bar:
+            foreground: "#1E1E2E" # base
+            background: "#A6ADC8" # subtext0
+
+    # Keyboard regex hints
+    hints:
+        start:
+            foreground: "#1E1E2E" # base
+            background: "#F9E2AF" # yellow
+        end:
+            foreground: "#1E1E2E" # base
+            background: "#A6ADC8" # subtext0
+
+    # Selection colors
+    selection:
+        text: "#1E1E2E" # base
+        background: "#F5E0DC" # rosewater
+
+    # Normal colors
+    normal:
+        black: "#45475A" # surface1
+        red: "#F38BA8" # red
+        green: "#A6E3A1" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#F5C2E7" # pink
+        cyan: "#94E2D5" # teal
+        white: "#BAC2DE" # subtext1
+
+    # Bright colors
+    bright:
+        black: "#585B70" # surface2
+        red: "#F38BA8" # red
+        green: "#A6E3A1" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#F5C2E7" # pink
+        cyan: "#94E2D5" # teal
+        white: "#A6ADC8" # subtext0
+
+    # Dim colors
+    dim:
+        black: "#45475A" # surface1
+        red: "#F38BA8" # red
+        green: "#A6E3A1" # green
+        yellow: "#F9E2AF" # yellow
+        blue: "#89B4FA" # blue
+        magenta: "#F5C2E7" # pink
+        cyan: "#94E2D5" # teal
+        white: "#BAC2DE" # subtext1
+
+    indexed_colors:
+        - { index: 16, color: "#FAB387" }
+        - { index: 17, color: "#F5E0DC" }
+
+
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x000000'
+#     foreground: '0xeaeaea'
+#
+#   # Normal colors
+#   normal:
+#     black:   '0x363636'
+#     red:     '0xff3355'
+#     green:   '0x66bf39'
+#     yellow:  '0xffc00a'
+#     blue:    '0x45a3e5'
+#     magenta: '0x864cbf'
+#     cyan:    '0x33cccc'
+#     white:   '0xe0e0e0'
+#
+#   # Bright colors
+#   bright:
+#     black:   '0x727272'
+#     red:     '0xff99aa'
+#     green:   '0xb2df9c'
+#     yellow:  '0xffdd33'
+#     blue:    '0xa2d1f2'
+#     magenta: '0xc2a5df'
+#     cyan:    '0x99e5e5'
+#     white:   '0xffffff'
+#
+
+
+#Colors (Ayu Dark) (customized)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#000000'
+#     foreground: '#e5e5e5'
+#
+#   # Normal colors
+#   normal:
+#     black:   '#01060E'
+#     red:     '#EA6C73'
+#     green:   '#5add4b'
+#     yellow:  '#F9AF4F'
+#     blue:    '#53BDFA'
+#     magenta: '#FAE994'
+#     cyan:    '#89d2f9'
+#     white:   '#C7C7C7'
+#
+#   # Bright colors
+#   bright:
+#     black:   '#686868'
+#     red:     '#F07178'
+#     green:   '#6ef45f'
+#     yellow:  '#FFB454'
+#     blue:    '#59C2FF'
+#     magenta: '#FFEE99'
+#     cyan:    '#8af6fc'
+#     white:   '#FFFFFF'
+
+
+# colors:
+#   primary:
+#     background: "#000000"
+#     foreground: "#f9f9f9"
+#   normal:
+#     black: "#000000"
+#     red: "#fc4465"
+#     green: "#41de41"
+#     yellow: "#fce89f"
+#     blue: "#261dce"
+#     magenta: "#ad8ee6"
+#     cyan: "#449dab"
+#     white: "#cccccc"
+#   bright:
+#     black: "#444b6a"
+#     red: "#fc5574"
+#     green: "#11d60f"
+#     yellow: "#fcfc6c"
+#     blue: "#7da6ff"
+#     magenta: "#bb9af7"
+#     cyan: "#0db9d7"
+#     white: "#dddddd"
+
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/zsh
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
