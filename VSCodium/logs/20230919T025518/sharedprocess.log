@@ -1,9 +1,0 @@
-2023-09-19 02:55:20.945 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc /home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.1.0-universal
-2023-09-19 02:55:21.036 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.1.0-universal.-15e78ccc.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.1.0-universal.-15e78ccc.vsctmp'
-    at n.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:34:36058)
-    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:34:36194)
-    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:39:46722)
-    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:39:37612)
-    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:39:20649)
-    at async Y.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:92:12513)
-2023-09-19 02:55:21.067 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc-icons /home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.26.0-universal

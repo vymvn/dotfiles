@@ -1,8 +1,0 @@
-2023-11-04 14:38:43.234 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-11-04 14:38:44.700 [error] Extension 'ms-python.python' wants API proposal 'envShellEvent' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-11-04 14:38:44.701 [error] Extension 'ms-python.python' wants API proposal 'envCollectionWorkspace' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-11-04 14:38:44.701 [error] Extension 'ms-python.python' wants API proposal 'envCollectionOptions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-11-04 14:38:44.753 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
-2023-11-04 14:38:47.490 [info] [perf] Render performance baseline is 73ms
-2023-11-04 14:38:51.176 [error] [Extension Host] (node:4577) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `exe --trace-deprecation ...` to show where the warning was created)

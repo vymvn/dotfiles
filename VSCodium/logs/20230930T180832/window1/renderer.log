@@ -1,4 +1,0 @@
-2023-09-30 18:08:34.430 [error] Extension 'ms-python.python' wants API proposal 'envCollectionWorkspace' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-09-30 18:08:34.430 [error] Extension 'ms-python.python' wants API proposal 'envCollectionOptions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-09-30 18:08:34.443 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
-2023-09-30 18:08:38.006 [info] [perf] Render performance baseline is 65ms

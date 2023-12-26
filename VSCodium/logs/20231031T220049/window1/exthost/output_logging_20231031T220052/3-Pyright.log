@@ -1,9 +1,0 @@
-[Info  - 10:00:56 PM] Pyright language server 1.1.329 starting
-[Info  - 10:00:56 PM] Server root directory: /home/vymvn/.vscode-oss/extensions/ms-pyright.pyright-1.1.329-universal/dist
-[Info  - 10:00:56 PM] Starting service instance "nfc-pi"
-Received pythonPath from Python extension: /home/vymvn/dev/nfc-pi/venv/bin/python
-[Info  - 10:00:56 PM] Setting pythonPath for service "nfc-pi": "/home/vymvn/dev/nfc-pi/venv/bin/python"
-[Warn  - 10:00:56 PM] stubPath /home/vymvn/dev/nfc-pi/typings is not a valid directory.
-[Info  - 10:00:56 PM] Assuming Python version 3.11
-[Info  - 10:00:57 PM] Auto-excluding /home/vymvn/dev/nfc-pi/venv
-[Info  - 10:00:57 PM] Found 3 source files
