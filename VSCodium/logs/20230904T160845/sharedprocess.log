@@ -1,0 +1,31 @@
+2023-09-04 16:08:52.584 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-09-04 16:08:52.598 [info] Getting Manifest... jeanp413.open-remote-ssh
+2023-09-04 16:08:54.334 [info] Installing extension: jeanp413.open-remote-ssh
+2023-09-04 16:08:54.337 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-09-04 16:08:55.950 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-09-04 16:08:55.992 [info] Extracted extension to file:///home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.1.0-universal: catppuccin.catppuccin-vsc
+2023-09-04 16:08:55.997 [info] Renamed to /home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.1.0-universal
+2023-09-04 16:08:55.999 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-09-04 16:08:56.008 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-09-04 16:08:56.011 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-2.8.1-universal
+2023-09-04 16:08:56.491 [info] Extension signature verification is not done: jeanp413.open-remote-ssh
+2023-09-04 16:08:56.525 [info] Extracted extension to file:///home/vymvn/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.42-universal: jeanp413.open-remote-ssh
+2023-09-04 16:08:56.529 [info] Renamed to /home/vymvn/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.42-universal
+2023-09-04 16:08:56.531 [info] Extracting extension completed. jeanp413.open-remote-ssh
+2023-09-04 16:08:56.539 [info] Extension installed successfully: jeanp413.open-remote-ssh
+2023-09-04 16:08:56.542 [info] Marked extension as uninstalled jeanp413.open-remote-ssh-0.0.40-universal
+2023-09-04 16:10:17.241 [info] Getting Manifest... charliermarsh.ruff
+2023-09-04 16:10:17.893 [info] Installing extension: charliermarsh.ruff
+2023-09-04 16:10:18.295 [info] Getting Manifest... ms-python.python
+2023-09-04 16:10:19.082 [info] Extension signature verification is not done: charliermarsh.ruff
+2023-09-04 16:10:19.468 [info] Extracted extension to file:///home/vymvn/.vscode-oss/extensions/charliermarsh.ruff-2023.34.0-linux-x64: charliermarsh.ruff
+2023-09-04 16:10:19.476 [info] Renamed to /home/vymvn/.vscode-oss/extensions/charliermarsh.ruff-2023.34.0-linux-x64
+2023-09-04 16:10:19.477 [info] Extracting extension completed. charliermarsh.ruff
+2023-09-04 16:10:19.494 [info] Extension installed successfully: charliermarsh.ruff
+2023-09-04 16:11:30.713 [info] Getting Manifest... ms-pyright.pyright
+2023-09-04 16:11:31.196 [info] Installing extension: ms-pyright.pyright
+2023-09-04 16:11:49.387 [info] Extension signature verification is not done: ms-pyright.pyright
+2023-09-04 16:11:51.147 [info] Extracted extension to file:///home/vymvn/.vscode-oss/extensions/ms-pyright.pyright-1.1.319-universal: ms-pyright.pyright
+2023-09-04 16:11:51.168 [info] Renamed to /home/vymvn/.vscode-oss/extensions/ms-pyright.pyright-1.1.319-universal
+2023-09-04 16:11:51.169 [info] Extracting extension completed. ms-pyright.pyright
+2023-09-04 16:11:51.181 [info] Extension installed successfully: ms-pyright.pyright

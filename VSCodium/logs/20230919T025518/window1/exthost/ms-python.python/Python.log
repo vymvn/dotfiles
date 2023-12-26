@@ -1,0 +1,5 @@
+2023-09-19 02:55:21.564 [info] Telemetry level is off
+2023-09-19 02:55:21.564 [info] Experiments are disabled, only manually opted experiments are active.
+2023-09-19 02:55:21.564 [info] Test server listening.
+2023-09-19 02:55:21.564 [info] Python interpreter path: ./venv/bin/python
+2023-09-19 02:55:23.687 [info] Starting Jedi language server for nfc-pi.

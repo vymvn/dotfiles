@@ -1,0 +1,28 @@
+2023-10-31 22:00:53.350 [info] Deleted uninstalled extension from disk jeanp413.open-remote-ssh /home/vymvn/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.42-universal
+2023-10-31 22:00:53.354 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc /home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.2.3-universal
+2023-10-31 22:00:53.446 [info] Deleted uninstalled extension from disk vscodevim.vim /home/vymvn/.vscode-oss/extensions/vscodevim.vim-1.25.2-universal
+2023-10-31 22:00:53.606 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc-icons /home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.27.0-universal
+2023-10-31 22:00:53.812 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vymvn/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.42-universal.29881573.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vymvn/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.42-universal.29881573.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-31 22:00:53.833 [info] Deleted uninstalled extension from disk charliermarsh.ruff /home/vymvn/.vscode-oss/extensions/charliermarsh.ruff-2023.34.0-linux-x64
+2023-10-31 22:00:53.844 [info] Deleted uninstalled extension from disk ms-pyright.pyright /home/vymvn/.vscode-oss/extensions/ms-pyright.pyright-1.1.319-universal
+2023-10-31 22:00:57.659 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-10-31 22:00:57.683 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2023-10-31 22:00:57.690 [info] Getting Manifest... charliermarsh.ruff
+2023-10-31 22:00:57.693 [info] Getting Manifest... formulahendry.code-runner
+2023-10-31 22:00:57.695 [info] Getting Manifest... jeanp413.open-remote-ssh
+2023-10-31 22:00:57.696 [info] Getting Manifest... ms-pyright.pyright
+2023-10-31 22:00:57.699 [info] Getting Manifest... ms-python.python
+2023-10-31 22:00:57.709 [info] Getting Manifest... vscodevim.vim
+2023-10-31 22:00:59.692 [info] Installing extension: catppuccin.catppuccin-vsc-icons
+2023-10-31 22:00:59.705 [info] Installing extension: charliermarsh.ruff
+2023-10-31 22:00:59.706 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-10-31 22:00:59.707 [info] Installing extension: formulahendry.code-runner
+2023-10-31 22:00:59.709 [info] Installing extension: jeanp413.open-remote-ssh
+2023-10-31 22:01:00.002 [info] Installing extension: ms-pyright.pyright
+2023-10-31 22:01:00.127 [info] Installing extension: vscodevim.vim

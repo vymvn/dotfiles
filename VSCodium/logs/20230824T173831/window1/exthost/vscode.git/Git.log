@@ -1,0 +1,21 @@
+2023-08-24 17:38:35.784 [info] Log level: Info
+2023-08-24 17:38:35.784 [info] Validating found git in: "git"
+2023-08-24 17:38:35.784 [info] Using git "2.42.0" from "git"
+2023-08-24 17:38:35.784 [info] > git rev-parse --show-toplevel [5ms]
+2023-08-24 17:38:35.784 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-08-24 17:38:35.784 [info] Open repository: /home/vymvn/notakeylogger
+2023-08-24 17:38:35.807 [info] > git config --get commit.template [14ms]
+2023-08-24 17:38:35.809 [info] > git rev-parse --show-toplevel [4ms]
+2023-08-24 17:38:35.950 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [125ms]
+2023-08-24 17:38:35.974 [info] > git status -z -uall [19ms]
+2023-08-24 17:38:35.991 [info] > git rev-parse --show-toplevel [18ms]
+2023-08-24 17:38:35.997 [info] > git config --get commit.template [7ms]
+2023-08-24 17:38:36.071 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-24 17:38:36.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2023-08-24 17:38:36.081 [info] > git status -z -uall [3ms]
+2023-08-24 17:38:36.096 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-24 17:38:36.105 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-24 17:38:36.202 [info] > git show --textconv :src/server.c [9ms]
+2023-08-24 17:38:36.204 [info] > git ls-files --stage -- /home/vymvn/notakeylogger/src/server.c [3ms]
+2023-08-24 17:38:36.214 [info] > git cat-file -s 2d1e7cd6b1ea826f3e31108ab2f8a1f83518cc9f [2ms]
+2023-08-24 17:38:36.289 [info] > git check-ignore -v -z --stdin [2ms]

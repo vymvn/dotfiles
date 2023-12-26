@@ -1,0 +1,31 @@
+2023-08-29 13:56:16.612 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc /home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.7.0-universal
+2023-08-29 13:56:16.613 [info] Deleted uninstalled extension from disk jeanp413.open-remote-ssh /home/vymvn/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.39-universal
+2023-08-29 13:56:25.494 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-08-29 13:56:25.498 [info] Getting Manifest... ms-python.python
+2023-08-29 13:56:27.473 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-08-29 13:56:27.721 [info] Installing extension: ms-python.python
+2023-08-29 13:56:28.709 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-08-29 13:56:28.764 [info] Extracted extension to file:///home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.8.1-universal: catppuccin.catppuccin-vsc
+2023-08-29 13:56:28.768 [info] Renamed to /home/vymvn/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.8.1-universal
+2023-08-29 13:56:28.770 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-08-29 13:56:28.779 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-08-29 13:56:28.782 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-2.8.0-universal
+2023-08-29 13:56:36.148 [info] Getting Manifest... ms-python.python
+2023-08-29 13:56:36.174 [info] Extensions is already requested to install ms-python.python
+2023-08-29 13:57:13.244 [info] Extension signature verification is not done: ms-python.python
+2023-08-29 13:57:14.883 [info] Extracted extension to file:///home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal: ms-python.python
+2023-08-29 13:57:14.908 [info] Renamed to /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal
+2023-08-29 13:57:14.915 [info] Extracting extension completed. ms-python.python
+2023-08-29 13:57:14.928 [info] Extension installed successfully: ms-python.python
+2023-08-29 13:57:14.934 [info] Marked extension as uninstalled ms-python.python-2023.12.0-universal
+2023-08-29 13:58:50.520 [info] Getting Manifest... charliermarsh.ruff
+2023-08-29 13:58:50.832 [info] Installing extension: charliermarsh.ruff
+2023-08-29 13:58:51.181 [info] Getting Manifest... ms-python.python
+2023-08-29 13:59:21.723 [info] Extension signature verification is not done: charliermarsh.ruff
+2023-08-29 13:59:22.001 [info] Extracted extension to file:///home/vymvn/.vscode-oss/extensions/charliermarsh.ruff-2023.34.0-linux-x64: charliermarsh.ruff
+2023-08-29 13:59:22.008 [info] Renamed to /home/vymvn/.vscode-oss/extensions/charliermarsh.ruff-2023.34.0-linux-x64
+2023-08-29 13:59:22.011 [info] Extracting extension completed. charliermarsh.ruff
+2023-08-29 13:59:22.030 [info] Extension installed successfully: charliermarsh.ruff
+2023-08-29 14:02:47.116 [info] Uninstalling extension from the profile: charliermarsh.ruff@2023.34.0 vscode-userdata:/home/vymvn/.vscode-oss/extensions/extensions.json
+2023-08-29 14:02:47.162 [info] Marked extension as uninstalled charliermarsh.ruff-2023.34.0-linux-x64
+2023-08-29 14:02:47.837 [info] Successfully uninstalled extension from the profile charliermarsh.ruff@2023.34.0 vscode-userdata:/home/vymvn/.vscode-oss/extensions/extensions.json

@@ -11,7 +11,7 @@
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-3"
-theme='style-3'
+theme='style-1'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -90,12 +90,11 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		light-locker-command -l
-		# if [[ -x '/usr/bin/betterlockscreen' ]]; then
-		# 	betterlockscreen -l
-		# elif [[ -x '/usr/bin/i3lock' ]]; then
-		# 	i3lock
-		# fi
+		if [[ -x '/usr/bin/betterlockscreen' ]]; then
+			betterlockscreen -l
+		elif [[ -x '/usr/bin/i3lock' ]]; then
+			i3lock
+		fi
         ;;
     $suspend)
 		run_cmd --suspend

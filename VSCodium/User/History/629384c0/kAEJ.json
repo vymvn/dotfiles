@@ -1,0 +1,12 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontFamily": "'Iosevka', 'Extended'",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "window.menuBarVisibility": "toggle",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
+}

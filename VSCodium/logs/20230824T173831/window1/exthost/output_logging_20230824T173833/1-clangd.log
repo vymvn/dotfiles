@@ -1,0 +1,45 @@
+I[17:38:34.313] clangd version 15.0.7
+I[17:38:34.314] Features: linux
+I[17:38:34.314] PID: 3971
+I[17:38:34.314] Working directory: /home/vymvn/notakeylogger
+I[17:38:34.314] argv[0]: /sbin/clangd
+I[17:38:34.315] Starting LSP over stdin/stdout
+I[17:38:34.319] <-- initialize(0)
+I[17:38:34.329] --> reply:initialize(0) 10 ms
+I[17:38:35.521] <-- initialized
+I[17:38:35.660] <-- textDocument/didOpen
+I[17:38:35.665] Failed to find compilation database for /home/vymvn/notakeylogger/src/server.c
+I[17:38:35.665] ASTWorker building file /home/vymvn/notakeylogger/src/server.c version 1 with command clangd fallback
+[/home/vymvn/notakeylogger/src]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/vymvn/notakeylogger/src/server.c
+I[17:38:35.683] <-- textDocument/documentLink(1)
+I[17:38:35.683] <-- textDocument/inlayHint(2)
+I[17:38:35.683] <-- textDocument/documentSymbol(3)
+I[17:38:35.686] --> textDocument/clangd.fileStatus
+I[17:38:35.745] <-- $/cancelRequest
+I[17:38:35.793] <-- textDocument/documentLink(4)
+I[17:38:35.844] --> workspace/semanticTokens/refresh(0)
+I[17:38:35.844] --> textDocument/clangd.fileStatus
+I[17:38:35.877] --> textDocument/publishDiagnostics
+I[17:38:35.877] --> reply:textDocument/documentLink(1) 194 ms, error: Task was cancelled.
+I[17:38:35.878] --> reply:textDocument/inlayHint(2) 194 ms
+I[17:38:35.879] --> reply:textDocument/documentSymbol(3) 195 ms
+I[17:38:35.879] --> reply:textDocument/documentLink(4) 86 ms
+I[17:38:35.879] --> textDocument/clangd.fileStatus
+I[17:38:35.974] <-- reply(0)
+I[17:38:35.991] <-- textDocument/semanticTokens/full(5)
+I[17:38:35.991] --> reply:textDocument/semanticTokens/full(5) 0 ms
+I[17:38:35.992] --> textDocument/clangd.fileStatus
+[Error - 5:38:35 PM] Request textDocument/documentLink failed.
+[object Object]
+I[17:38:39.061] <-- $/setTrace
+I[17:38:39.061] unhandled notification $/setTrace
+I[17:38:39.104] <-- textDocument/inlayHint(6)
+I[17:38:39.105] --> reply:textDocument/inlayHint(6) 0 ms
+I[17:38:39.105] --> textDocument/clangd.fileStatus
+I[17:38:39.107] <-- textDocument/documentLink(7)
+I[17:38:39.108] --> reply:textDocument/documentLink(7) 0 ms
+I[17:38:39.108] --> textDocument/clangd.fileStatus
+I[17:38:39.316] <-- textDocument/documentLink(8)
+I[17:38:39.317] --> reply:textDocument/documentLink(8) 0 ms
+I[17:38:39.317] --> textDocument/clangd.fileStatus

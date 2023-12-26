@@ -2,11 +2,11 @@
   monitor = 0
   follow = mouse
   shrink = no
-  padding = 20
-  horizontal_padding = 20
+  padding = 10
+  horizontal_padding = 10
   
-  width = 400
-  height = 150
+  width = 350
+  height = 125
   offset = 10x10
   origin = top-right
 
@@ -16,7 +16,7 @@
   separator_color = "#161320"
 
   sort = no
-  font = Ubuntu 12
+  font = Cantarell Bold 12
   markup = full
   format = "<b>%s</b>\n%b"
   alignment = left
@@ -28,31 +28,31 @@
   show_indicators = yes
 
   icon_position = left
-  max_icon_size= 80
+  max_icon_size= 100
   sticky_history = no
   history_length = 6
   title = Dunst
   class = Dunst
   corner_radius = 5
 
-  mouse_left_click = close_current
-  mouse_middle_click = do_action
-  mouse_right_click = close_all
+  mouse_left_click = do_action
+  mouse_middle_click = close_all
+  mouse_right_click = close_current
 
 [urgency_low]
   background = "#00000099"
-  foreground = "#D9E0EE"
-  frame_color = "#96CDFB"
+  foreground = "#F8F8F2"
+  frame_color = "#44475A"
   timeout = 5
 
 [urgency_normal]
   background = "#00000099"
-  frame_color = "#B5E8E0"
-  foreground = "#D9E0EE"
+  frame_color = "#6272A4"
+  foreground = "#F8F8F2"
   timeout = 10
 
 [urgency_critical]
   background = "#00000099"
-  frame_color = "#F88D96"
-  foreground = "#D9E0EE"
+  frame_color = "#FF5555"
+  foreground = "#F8F8F2"
   timeout = 20

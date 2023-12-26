@@ -1,0 +1,130 @@
+2023-08-24 17:38:33.623 [info] Extension host with pid 3908 started
+2023-08-24 17:38:33.624 [info] Skipping acquiring lock for /home/vymvn/.config/VSCodium/User/workspaceStorage/78c057c27af4ce1454c714fa1f1500f4.
+2023-08-24 17:38:33.878 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-24 17:38:33.911 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:c'
+2023-08-24 17:38:34.284 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-24 17:38:34.289 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-24 17:38:34.298 [info] ExtensionService#_doActivateExtension snyk-security.snyk-vulnerability-scanner, startup: true, activationEvent: '*'
+2023-08-24 17:38:35.374 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-08-24 17:38:35.530 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-24 17:38:35.620 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-24 17:38:35.819 [info] Eager extensions activated
+2023-08-24 17:38:35.826 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 17:38:35.829 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 17:38:35.854 [info] ExtensionService#_doActivateExtension 21zz.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 17:38:35.895 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 17:38:35.926 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 17:38:35.996 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-08-24 17:38:35.996 [error] {"_isCancelled":true,"_emitter":null}
+2023-08-24 17:38:35.999 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-24 17:38:36.482 [error] SentryError: Invalid Dsn
+	at new SentryError (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/utils/dist/error.js:9:28)
+	at Dsn._fromString (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/utils/dist/dsn.js:39:19)
+	at new Dsn (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/utils/dist/dsn.js:13:18)
+	at NodeBackend._setupTransport (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/node/dist/backend.js:97:19)
+	at NodeBackend.BaseBackend (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/core/dist/basebackend.js:15:32)
+	at new NodeBackend (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/node/dist/backend.js:15:42)
+	at NodeClient.BaseClient (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/core/dist/baseclient.js:53:25)
+	at new NodeClient (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/node/dist/client.js:33:24)
+	at Object.initAndBind (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/core/dist/sdk.js:18:18)
+	at Object.init (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/node_modules/@sentry/node/dist/sdk.js:116:12)
+	at ErrorReporter.init (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/out/snyk/common/error/errorReporter.js:37:16)
+	at async SnykExtension.activate (/home/vymvn/.vscode-oss/extensions/snyk-security.snyk-vulnerability-scanner-1.18.1/out/snyk/extension.js:92:13)
+2023-08-24 17:38:37.090 [error] TypeError: Cannot read properties of null (reading 'write')
+	at IPCTransport.send (/home/vymvn/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:19979)
+	at /home/vymvn/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:20066
+	at new Promise (<anonymous>)
+	at IPCTransport.close (/home/vymvn/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:20023)
+	at RPCClient.destroy (/home/vymvn/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:13724)
+	at login (/home/vymvn/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:460850)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async activate (/home/vymvn/.vscode-oss/extensions/21zz.vscord-4.5.3-universal/dist/extension.js:2:463249)
+	at async b._activate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:7862)
+	at async b._waitForDepsThenActivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:7804)
+	at async b._initialize (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:7168)
+2023-08-24 17:38:38.925 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-24 17:38:38.991 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-24 17:38:45.622 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-24 17:38:45.641 [error] Canceled: Canceled
+	at new d (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:63475)
+	at t._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10623)
+	at N.<computed>.F.charCodeAt.N.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7163)
+	at a._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:88663)
+	at a.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87988)
+	at w.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87229)
+	at a._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:89298)
+	at a._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:88121)
+	at a.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87988)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:27031)
+	at r.D [as value] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1261639)
+	at f._deliver (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f._deliverQueue (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2556)
+	at f.fire (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2891)
+	at Object.m [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1277242)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1281972
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1281958)
+	at b.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:4943)
+	at b.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:5040)
+	at b.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1263652)
+	at b.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:5040)
+	at C (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:13:12153)
+	at r._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12653)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9849
+	at Array.map (<anonymous>)
+	at r._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9837)
+	at r.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10220)
+	at s.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1901)
+	at I (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:38659)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34734)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-08-24 17:38:45.644 [error] Canceled: Canceled
+	at new d (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:63475)
+	at t._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10623)
+	at N.<computed>.F.charCodeAt.N.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7163)
+	at a._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:88663)
+	at a.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87988)
+	at w.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87229)
+	at a._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:89298)
+	at a._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:88121)
+	at a.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87988)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:27031)
+	at set b [as b] (/opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:676132)
+	at /opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:676776
+	at r.value (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1349125)
+	at f._deliver (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f._deliverQueue (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2556)
+	at f.fire (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2891)
+	at Object.m [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1277242)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1281972
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1281958)
+	at b.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:4943)
+	at b.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:5040)
+	at b.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1263652)
+	at b.dispose (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:5040)
+	at C (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:13:12153)
+	at r._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12653)
+	at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9849
+	at Array.map (<anonymous>)
+	at r._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9837)
+	at r.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10220)
+	at s.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1901)
+	at I (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:38659)
+	at MessagePortMain.<anonymous> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34734)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-08-24 17:38:45.649 [error] Error: Channel has been closed
+	at n (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3396)
+	at Object.append (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3472)
+	at Socket.<anonymous> (/home/vymvn/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24-universal/out/bundle.js:39:57111)
+	at Socket.emit (node:events:513:28)
+	at Socket.emit (node:domain:489:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 17:38:45.651 [info] Extension host with pid 3908 exiting with code 0

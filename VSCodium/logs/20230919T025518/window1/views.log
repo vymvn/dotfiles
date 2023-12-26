@@ -1,0 +1,15 @@
+2023-09-19 02:55:19.915 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2023-09-19 02:55:19.915 [info] Added views:workbench.panel.output in workbench.panel.output
+2023-09-19 02:55:19.915 [info] Added views:terminal in terminal
+2023-09-19 02:55:19.915 [info] Added views:outline in workbench.view.explorer
+2023-09-19 02:55:19.915 [info] Added views:workbench.scm in workbench.view.scm
+2023-09-19 02:55:19.915 [info] Added views:workbench.view.search in workbench.view.search
+2023-09-19 02:55:19.915 [info] Added views:timeline in workbench.view.explorer
+2023-09-19 02:55:19.916 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2023-09-19 02:55:20.402 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2023-09-19 02:55:20.797 [info] Added views:sshHosts in workbench.view.remote
+2023-09-19 02:55:20.798 [info] Added views:snyk.views.welcome,snyk.views.support in workbench.view.extension.snyk
+2023-09-19 02:55:21.049 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2023-09-19 02:55:21.549 [info] Added views:workbench.view.testing in workbench.view.extension.test
+2023-09-19 02:55:21.768 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2023-09-19 02:55:24.252 [info] Removed views:workbench.view.testing from workbench.view.extension.test

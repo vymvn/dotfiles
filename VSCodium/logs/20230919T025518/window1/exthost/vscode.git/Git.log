@@ -1,0 +1,19 @@
+2023-09-19 02:55:23.927 [info] Log level: Info
+2023-09-19 02:55:23.927 [info] Validating found git in: "git"
+2023-09-19 02:55:23.927 [info] Using git "2.42.0" from "git"
+2023-09-19 02:55:23.927 [info] > git rev-parse --show-toplevel [13ms]
+2023-09-19 02:55:23.927 [info] > git rev-parse --git-dir --git-common-dir [120ms]
+2023-09-19 02:55:23.927 [info] Open repository: /home/vymvn/dev/nfc-pi
+2023-09-19 02:55:23.958 [info] > git rev-parse --show-toplevel [15ms]
+2023-09-19 02:55:23.959 [info] > git config --get commit.template [22ms]
+2023-09-19 02:55:23.982 [info] > git rev-parse --show-toplevel [10ms]
+2023-09-19 02:55:23.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-09-19 02:55:24.002 [info] > git rev-parse --show-toplevel [12ms]
+2023-09-19 02:55:24.013 [info] > git status -z -uall [13ms]
+2023-09-19 02:55:24.013 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-19 02:55:24.068 [info] > git config --get commit.template [23ms]
+2023-09-19 02:55:24.069 [info] > git rev-parse --show-toplevel [35ms]
+2023-09-19 02:55:24.100 [info] > git rev-parse --show-toplevel [15ms]
+2023-09-19 02:55:24.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [64ms]
+2023-09-19 02:55:24.170 [info] > git rev-parse --show-toplevel [15ms]
+2023-09-19 02:55:24.174 [info] > git status -z -uall [5ms]

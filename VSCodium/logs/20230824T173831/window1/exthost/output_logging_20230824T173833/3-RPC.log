@@ -1,0 +1,8 @@
+[5:38:35 PM - INFO] [data.ts] ext(): Git extension is active
+[5:38:35 PM - INFO] Discord Rich Presence for VS Code activated.
+[5:38:35 PM - INFO] Registered Discord Rich Presence commands
+[5:38:36 PM - ERROR] Encountered following error while trying to login:
+Error: Could not connect
+[5:38:36 PM - INFO] [002] Destroyed Discord RPC client
+[5:38:45 PM - INFO] Discord Rich Presence for VS Code deactivated.
+[5:38:45 PM - INFO] [004] Destroyed Discord RPC client

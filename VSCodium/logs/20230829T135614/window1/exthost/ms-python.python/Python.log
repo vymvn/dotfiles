@@ -1,0 +1,13 @@
+2023-08-29 13:56:47.966 [info] Telemetry level is off
+2023-08-29 13:56:47.966 [info] Experiments are disabled, only manually opted experiments are active.
+2023-08-29 13:56:47.966 [info] Test server listening.
+2023-08-29 13:56:48.012 [info] Python interpreter path: /bin/python
+2023-08-29 13:56:48.013 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-08-29 13:56:48.013 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-08-29 13:56:48.035 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/interpreterInfo.py
+2023-08-29 13:56:48.961 [info] Starting Jedi language server for default.
+2023-08-29 13:57:25.742 [info] Telemetry level is off
+2023-08-29 13:57:25.742 [info] Experiments are disabled, only manually opted experiments are active.
+2023-08-29 13:57:25.820 [info] Test server listening.
+2023-08-29 13:57:25.822 [info] Python interpreter path: /bin/python
+2023-08-29 13:57:27.472 [info] Starting Jedi language server for default.

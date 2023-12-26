@@ -1,0 +1,122 @@
+2023-09-04 16:09:52.091 [info] Telemetry level is off
+2023-09-04 16:09:52.091 [info] Experiments are disabled, only manually opted experiments are active.
+2023-09-04 16:09:52.091 [info] Test server listening.
+2023-09-04 16:09:52.165 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-04 16:09:52.165 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-04 16:09:52.165 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-04 16:09:52.165 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-04 16:09:52.184 [info] > ./venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:09:52.198 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:09:52.255 [info] Python interpreter path: /bin/python
+2023-09-04 16:09:52.983 [info] Starting Jedi language server for nfc-pi.
+2023-09-04 16:10:23.039 [info] Python interpreter path: ./venv/bin/python
+2023-09-04 16:12:27.249 [info] Discover tests for workspace name: nfc-pi - uri: /home/vymvn/dev/nfc-pi/main.py
+2023-09-04 16:14:41.735 [info] Discover tests for workspace name: nfc-pi - uri: /home/vymvn/dev/nfc-pi/main.py
+2023-09-04 16:14:46.620 [info] > conda info --json
+2023-09-04 16:14:46.652 [info] Found: /bin/python --> /bin/python3.11
+2023-09-04 16:14:46.653 [info] Found: /bin/python2 --> /bin/python2.7
+2023-09-04 16:14:46.653 [info] Found: /bin/python2.7 --> /bin/python2.7
+2023-09-04 16:14:46.653 [info] Found: /bin/python3 --> /bin/python3.11
+2023-09-04 16:14:46.653 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-09-04 16:14:46.705 [info] Found: /sbin/python --> /sbin/python3.11
+2023-09-04 16:14:46.705 [info] Found: /sbin/python2 --> /sbin/python2.7
+2023-09-04 16:14:46.705 [info] Found: /sbin/python2.7 --> /sbin/python2.7
+2023-09-04 16:14:46.705 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-09-04 16:14:46.705 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-09-04 16:14:46.716 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-09-04 16:14:46.716 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2023-09-04 16:14:46.716 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2023-09-04 16:14:46.717 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-09-04 16:14:46.717 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-09-04 16:14:46.759 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-09-04 16:14:46.759 [info] Found: /usr/sbin/python2 --> /usr/sbin/python2.7
+2023-09-04 16:14:46.759 [info] Found: /usr/sbin/python2.7 --> /usr/sbin/python2.7
+2023-09-04 16:14:46.759 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-09-04 16:14:46.759 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-09-04 16:14:46.785 [info] > /bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.797 [warning] [Error: Command failed: /bin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:409:12)
+	at ChildProcess.emit (node:events:513:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1093:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:513:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py'
+}
+2023-09-04 16:14:46.797 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-09-04 16:14:46.804 [info] > /bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.815 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.836 [info] > /sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.841 [warning] [Error: Command failed: /sbin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /sbin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:409:12)
+	at ChildProcess.emit (node:events:513:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1093:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/sbin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py'
+}
+2023-09-04 16:14:46.841 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-09-04 16:14:46.849 [info] > /sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.863 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.886 [info] > /usr/bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.892 [warning] [Error: Command failed: /usr/bin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:409:12)
+	at ChildProcess.emit (node:events:513:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1093:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:513:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py'
+}
+2023-09-04 16:14:46.892 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-09-04 16:14:46.903 [info] > /usr/bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.920 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.943 [info] > /usr/sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:46.948 [warning] [Error: Command failed: /usr/sbin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/sbin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:409:12)
+	at ChildProcess.emit (node:events:513:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1093:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:513:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/sbin/python2 -I /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py /home/vymvn/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py'
+}
+2023-09-04 16:14:46.948 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-09-04 16:14:46.957 [info] > /usr/sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-04 16:14:53.583 [info] Discover tests for workspace name: nfc-pi - uri: /home/vymvn/dev/nfc-pi
+2023-09-04 16:14:54.412 [info] Starting Jedi language server for nfc-pi.
+2023-09-04 16:15:04.034 [info] Discover tests for workspace name: nfc-pi - uri: /home/vymvn/dev/nfc-pi/main.py
