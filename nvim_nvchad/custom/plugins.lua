@@ -33,6 +33,13 @@ local plugins = {
         cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
         ft = { "markdown" },
         build = function() vim.fn["mkdp#util#install"]() end,
+    },
+    {
+        "github/copilot.vim",
+        lazy = false,
+        config = function ()
+            require "custom.configs.copilot"
+        end
     }
 }
 
