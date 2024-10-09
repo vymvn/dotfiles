@@ -26,17 +26,19 @@ return {
   {
   	"williamboman/mason.nvim",
   	opts = {
-  		ensure_installed = {
-  			"lua-language-server", "stylua",
-  			"html-lsp", "css-lsp" , "prettier",
-        "intelephense",
-        "pyright",
-        "clangd",
-  		},
-  	},
-  },
+            ensure_installed = {
+                "lua-language-server", "stylua",
+                "html-lsp", "css-lsp" , "prettier",
+                "python-lsp-server",
+                "intelephense",
+                "clangd",
+                "gopls",
+                "tsserver",
+            },
+        },
+    },
 
-  {
+    {
       'lervag/vimtex',
       lazy = false,
       config = function ()

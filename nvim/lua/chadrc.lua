@@ -1,15 +1,13 @@
--- This file  needs to have same structure as nvconfig.lua 
--- https://github.com/NvChad/NvChad/blob/v2.5/lua/nvconfig.lua
+-- This file needs to have same structure as nvconfig.lua 
+-- https://github.com/NvChad/ui/blob/v3.0/lua/nvconfig.lua
+-- Please read that file to know all available options :( 
 
 ---@type ChadrcConfig
 local M = {}
 
 M.ui = {
-    theme = 'yoru',
-    transparency = true,
-    theme_toggle = nil,
 
-    -- hl_override = require "highlights",
+    theme_toggle = nil,
 
     statusline = {
         theme = "default", -- default/vscode/vscode_colored/minimal
@@ -19,21 +17,18 @@ M.ui = {
         separator_style = "round",
         -- overriden_modules = nil,
     },
+}
 
-    nvdash = {
-        load_on_startup = true
+M.base46 = {
+    theme = "decay",
+    transparency = true,
+
+
+    hl_override = {
+
+        -- 	Comment = { italic = true },
+        -- 	["@comment"] = { italic = true },
     },
-
-    -- tabufline = {
-    --     overriden_modules = function(modules)
-    --         modules[4] = (function()
-    --             return ""
-    --         end)()
-    --
-    --         -- or table.remove(modules, 4)
-    --     end,
-    -- },
-
 }
 
 return M
