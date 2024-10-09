@@ -1,10 +1,10 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "Iosevka", "Extended";
-    font-weight: normal;
+    font-family: "Iosevka Nerd Font";
+    font-weight: bold;
     font-size: 15px;
-    min-height: 5px;
+    min-height: 20px;
 }
 
 window#waybar {
@@ -16,12 +16,16 @@ window#waybar {
 }
 
 tooltip {
-    background: rgba(0,0,0,1);
+    background: rgba(0,0,0,0.7);
     border-radius: 5px;
     border-width: 1px;
     border-style: solid;
     border-color: #F8F8F2;
 }
+
+/* tooltip label { */
+/*   color: white; */
+/* } */
 
 #workspaces button {
     padding: 5px;
@@ -48,7 +52,7 @@ tooltip {
 #workspaces button:hover {
     background: #11111b;
     color: #cdd6f4;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 #window,
@@ -70,7 +74,7 @@ tooltip {
     opacity: 0.9;
     padding: 0px 10px;
     margin: 3px 0px;
-    margin-top: 3px;
+    margin-top: 5px;
     /* border: 2px solid #9a9a9a; */
     border: 2px solid #44475A;
     /* height: 5px; */
@@ -78,17 +82,19 @@ tooltip {
 }
 
 #temperature {
-    border-radius: 10px 0px 0px 10px;
+	border-radius: 5px 0px 0px 5px;
+    border-right: 0px;
 }
 
 #cpu {
-	font-family: "Iosevka Term", "Font Awesome 6 Free";
-	border-radius: 5px 0px 0px 5px;
+	font-family: "Iosevka", "Font Awesome 6 Free";
+	border-radius: 0px 0px 0px 0px;
 	border-right: 0px;
+	border-left: 0px;
 }
 
 #memory {
-	font-family: "Iosevka Term", "Font Awesome 6 Free";
+	font-family: "Iosevka", "Font Awesome 6 Free";
 	border-radius: 0px;
 	border-left: 0px;
 	border-right: 0px;
@@ -117,15 +123,15 @@ tooltip {
 #tray {
     border-radius: 5px;
     margin-right: 5px;
+    margin-left: 5px;
 }
 
 #workspaces {
     /* background: #000000; */
     border-radius: 5px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     padding-left: 5px;
 }
-
 
 
 #window {
@@ -135,6 +141,8 @@ tooltip {
 }
 
 #clock {
+    font-family: "Iosevka", "Font Awesome 6 Free";
+	/* font-family: "Alkhemikal", "Iosevka", "Font Awesome 6 Free"; */
     color: #F8F8F2;
     border-radius: 5px 5px 5px 5px;
     margin-left: 5px;
@@ -165,9 +173,30 @@ tooltip {
 }
 
 #battery {
-    color: #50FA7B;
+    color: #F8F8F2;
     border-radius: 0 5px 5px 0;
     margin-right: 5px;
     border-left: 0px;
 }
 
+@keyframes blink {
+    to {
+        /* background-color: #ffffff; */
+        color: #F8F8F2;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    /* background-color: #000000; */
+    color: #FF5555;
+    /* animation-name: blink; */
+    /* animation-duration: 0.5s; */
+    /* animation-timing-function: steps(12); */
+    /* animation-iteration-count: 10; */
+    /* animation-direction: alternate; */
+}
+
+#battery.charging, #battery.plugged {
+    color: #50FA7B;
+}
