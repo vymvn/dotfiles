@@ -1,16 +1,20 @@
-# Load colours and then set prompt
-# Prompt preview:
-# [user@hostname]-[~]
-# >>>
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd
+unsetopt beep
+bindkey -e
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/ayman/.zshrc'
 
-autoload -U colors && colors
-PS1="%{$fg[white]%}%B[%b%{$fg[red]%}%n%{$fg[white]%}%B@%b%{$fg[white]%}%m%{$fg[white]%}%B]-%b%{$fg[white]%}%B[%b%{$fg[white]%}%~%{$fg[white]%}%B]%b
-%{$fg[white]%}%B>>>%b%{$reset_color%} "
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
 
-# ZSH history file
-HISTSIZE=100
-SAVEHIST=100
-HISTFILE=~/.zsh_history
+# Load prompt
+source $HOME/.config/zsh/test.zsh
 
 # Fancy auto-complete
 autoload -Uz compinit
@@ -25,7 +29,6 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Keybindings section
-bindkey -e
 bindkey '^[[7~' beginning-of-line                               # Home key
 bindkey '^[[H' beginning-of-line                                # Home key
 if [[ "${terminfo[khome]}" != "" ]]; then
@@ -51,9 +54,9 @@ bindkey '^[[1;5C' forward-word                                  #
 bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
 bindkey '^[[Z' undo                                             # Shift+tab undo last action
 
-export LD_PRELOAD=""
+# export LD_PRELOAD=""
 export EDITOR="vim"
-export PATH="$HOME/bin:/usr/lib/ccache/bin/:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/opt/bin:/usr/bin/core_perl:/usr/games/bin:$PATH"
+# export PATH="$HOME/bin:/usr/lib/ccache/bin/:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/opt/bin:/usr/bin/core_perl:/usr/games/bin:$PATH"
 
 # alias
 alias c="clear"
@@ -78,15 +81,18 @@ alias df="df -h"                          # human-readable sizes
 alias free="free -h"
 alias du="du -h"
 alias ip="ip -c"
-# alias ghidra="_JAVA_AWT_WM_NONREPARENTING=1 ghidra"
-alias open="mimeo"
 alias purge="rm -rf"
-alias feh="feh --scale-down -g 1280x720"
+alias open="xdg-open"
 
-export PATH=$PATH:"/home/vymvn/.local/bin"
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-export PATH=$PATH:"/home/vymvn/.local/share/gem/ruby/3.0.0/bin"
-export PATH=$PATH:"/home/vymvn/.cargo/bin"
-export PATH=$PATH:"/home/vymvn/go/bin"
+# PATH stuff
+export PATH=$PATH:"/home/ayman/.local/bin"
+# export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+# export PATH=$PATH:"/home/ayman/.local/share/gem/ruby/3.0.0/bin"
+export PATH=$PATH:"/home/ayman/.cargo/bin"
+export PATH=$PATH:"/home/ayman/go/bin"
 
-source "/home/vymvn/.config/prompt.zsh"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - --no-rehash)"
+
+eval $(thefuck --alias)
