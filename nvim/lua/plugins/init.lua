@@ -34,6 +34,7 @@ return {
                 "clangd",
                 "gopls",
                 "tsserver",
+                "rust-analyzer",
             },
         },
     },

@@ -4,7 +4,7 @@ local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "intelephense", "pylsp", "gopls" }
+local servers = { "html", "cssls", "intelephense", "gopls" }
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do
@@ -28,4 +28,54 @@ lspconfig.clangd.setup({
         on_attach(client, bufnr)
     end,
     capabilities = capabilities,
+})
+
+-- Setup for pylsp
+lspconfig.pylsp.setup({
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+  settings = {
+    pylsp = {
+      plugins = {
+        ruff = {
+          enabled = false,
+          -- ignore = { "E302" },
+        },
+        pydocstyle = {  -- Gives warnings about docstrings
+          enabled = false,
+        },
+        pyflakes = {
+          enabled = true,
+          -- ignore = { "E302" },
+        },
+        pycodestyle = {
+          enabled = true,
+          ignore = { "E302", "E501" },
+        },
+      },
+    },
+  },
+})
+
+lspconfig.rust_analyzer.setup({
+    on_attach = on_attach,
+    settings = {
+        ["rust-analyzer"] = {
+            imports = {
+                granularity = {
+                    group = "module",
+                },
+                prefix = "self",
+            },
+            cargo = {
+                buildScripts = {
+                    enable = true,
+                },
+            },
+            procMacro = {
+                enable = true
+            },
+        }
+    }
 })

@@ -3,6 +3,8 @@ require "nvchad.options"
 -- add yours here!
 vim.opt.relativenumber = true
 
+-- vim.g.maplocalleader = ","
+
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
