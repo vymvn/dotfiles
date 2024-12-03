@@ -6,6 +6,14 @@ local capabilities = require("nvchad.configs.lspconfig").capabilities
 local lspconfig = require "lspconfig"
 local servers = { "html", "cssls", "intelephense", "gopls" }
 
+vim.diagnostic.config({
+  virtual_text = false
+})
+
+-- Show line diagnostics automatically in hover window
+vim.o.updatetime = 250
+vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
+
 -- lsps with default config
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
@@ -60,6 +68,8 @@ lspconfig.pylsp.setup({
 
 lspconfig.rust_analyzer.setup({
     on_attach = on_attach,
+    on_init = on_init,
+    capabilities = capabilities,
     settings = {
         ["rust-analyzer"] = {
             imports = {
@@ -72,6 +82,7 @@ lspconfig.rust_analyzer.setup({
                 buildScripts = {
                     enable = true,
                 },
+                allFeatures = true,
             },
             procMacro = {
                 enable = true
@@ -79,3 +90,4 @@ lspconfig.rust_analyzer.setup({
         }
     }
 })
+
