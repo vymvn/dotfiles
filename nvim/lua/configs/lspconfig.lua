@@ -1,4 +1,4 @@
--- EXAMPLE 
+-- EXAMPLE
 local on_attach = require("nvchad.configs.lspconfig").on_attach
 local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
@@ -6,9 +6,9 @@ local capabilities = require("nvchad.configs.lspconfig").capabilities
 local lspconfig = require "lspconfig"
 local servers = { "html", "cssls", "intelephense", "gopls" }
 
-vim.diagnostic.config({
-  virtual_text = false
-})
+vim.diagnostic.config {
+  virtual_text = false,
+}
 
 -- Show line diagnostics automatically in hover window
 vim.o.updatetime = 250
@@ -30,16 +30,16 @@ lspconfig.ts_ls.setup {
   capabilities = capabilities,
 }
 
-lspconfig.clangd.setup({
-    on_attach = function (client, bufnr)
-        client.server_capabilities.signatureHelpProvider = false
-        on_attach(client, bufnr)
-    end,
-    capabilities = capabilities,
-})
+lspconfig.clangd.setup {
+  on_attach = function(client, bufnr)
+    client.server_capabilities.signatureHelpProvider = false
+    on_attach(client, bufnr)
+  end,
+  capabilities = capabilities,
+}
 
 -- Setup for pylsp
-lspconfig.pylsp.setup({
+lspconfig.pylsp.setup {
   on_attach = on_attach,
   on_init = on_init,
   capabilities = capabilities,
@@ -50,7 +50,7 @@ lspconfig.pylsp.setup({
           enabled = false,
           -- ignore = { "E302" },
         },
-        pydocstyle = {  -- Gives warnings about docstrings
+        pydocstyle = { -- Gives warnings about docstrings
           enabled = false,
         },
         pyflakes = {
@@ -64,30 +64,31 @@ lspconfig.pylsp.setup({
       },
     },
   },
-})
+}
 
-lspconfig.rust_analyzer.setup({
-    on_attach = on_attach,
-    on_init = on_init,
-    capabilities = capabilities,
-    settings = {
-        ["rust-analyzer"] = {
-            imports = {
-                granularity = {
-                    group = "module",
-                },
-                prefix = "self",
-            },
-            cargo = {
-                buildScripts = {
-                    enable = true,
-                },
-                allFeatures = true,
-            },
-            procMacro = {
-                enable = true
-            },
-        }
-    }
-})
-
+lspconfig.rust_analyzer.setup {
+  on_attach = function(client, bufnr)
+    vim.lsp.inlay_hint.enable(true, { bufnr = bufnr })
+  end,
+  on_init = on_init,
+  capabilities = capabilities,
+  settings = {
+    ["rust-analyzer"] = {
+      imports = {
+        granularity = {
+          group = "module",
+        },
+        prefix = "self",
+      },
+      cargo = {
+        buildScripts = {
+          enable = true,
+        },
+        allFeatures = true,
+      },
+      procMacro = {
+        enable = true,
+      },
+    },
+  },
+}
